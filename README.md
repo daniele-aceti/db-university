@@ -1,4 +1,4 @@
-# 🎓 University DB - Schema SQL
+# 🎓 University DB
 
 📅 Ultimo aggiornamento 11/03/2025
 
