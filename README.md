@@ -1,18 +1,46 @@
-## Getting Started
+# 🎓 University DB - Schema SQL
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+📅 Ultimo aggiornamento 11/03/2025
 
-## Folder Structure
+**MySQL** • **Database Relazionale** • **ER Diagram** • **SQL DDL** • **Scopo Didattico**
 
-The workspace contains two folders by default, where:
+> Progetto che rappresenta uno schema relazionale per un database universitario, con file SQL per la creazione delle tabelle e diagramma ER.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🏛️ Struttura del database
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Il database rappresenta un sistema universitario con tabelle come:
 
-## Dependency Management
+- 👩‍🎓 `students` – anagrafica studenti  
+- 📚 `courses` – elenco dei corsi  
+- 🧑‍🏫 `professors` – docenti  
+- 📝 `enrollments` – iscrizioni studente-corso  
+- 📅 `exams` – esami previsti e voti
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🗂️ File inclusi
+
+- `db-university.sql` – script SQL per la creazione delle tabelle e dei vincoli
+- `diagram.drawio.png` – diagramma ER visivo generato con **draw.io**
+- `diagram.drawio` – file editabile del diagramma
+
+---
+
+## 🛠️ Tecnologie
+
+- **Database:** MySQL
+- **Diagramma:** draw.io
+- **Tipi SQL usati:** `INT`, `VARCHAR`, `DATE`, `FOREIGN KEY`, `AUTO_INCREMENT`, ecc.
+
+---
+
+📌 Note
+Questo progetto è stato realizzato a scopo didattico, utile per esercitarsi con:
+
+la modellazione di basi di dati relazionali
+
+l’uso di chiavi primarie e relazioni con chiavi esterne
+
+la progettazione tramite ER diagram
